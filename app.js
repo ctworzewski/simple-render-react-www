@@ -5,7 +5,12 @@ const handleClick = () => {
     alert('kliknął');
 }
 
+const newTextFooter = 'Testowanie stopki';
+const handleFooter = () => {
+    alert(newTextFooter)
+}
 const footerTxt = 'Copyright 2018';
+
 const main = (
     <div>
         <h1 onClick={handleClick} className='red'>Pierwszy artykuł</h1>
@@ -13,7 +18,7 @@ const main = (
     </div>
 )
 const footer = (
-<footer className={classBig}> 
+<footer className={classBig} onClick={handleFooter}> 
     <p>Stopka</p>
     {footerTxt}
 </footer>
