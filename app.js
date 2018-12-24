@@ -19,7 +19,7 @@ const main = (
 )
 const footer = (
 <footer className={classBig} onClick={handleFooter}> 
-    <p>Stopka</p>
+    <p>Stopka  kliknij w stopkę</p>
     {footerTxt}
 </footer>
 )
